@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "national_2_condensedregular";
+  src: url("/assets/fonts/national2/national2condensed-regular.woff2")
+      format("woff2"),
+    url("/assets/fonts/national2/national2condensed-regular.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "national_2_condensedmedium";
+  src: url("/assets/fonts/national2/national2condensed-medium.woff2")
+      format("woff2"),
+    url("/assets/fonts/national2/national2condensed-medium.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
