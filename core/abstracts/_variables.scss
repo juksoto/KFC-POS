@@ -12,33 +12,6 @@ $main-font-size: 16px;
 $color-black: #000;
 $color-white: #fff;
 
-//Colores destacados
-$color-primary: #0079C8;
-$color-secondary: #00335B;
-$color-title-1: #00335B;
-$color-title-2: #212121;
-$color-text: #212121;
-
-// cyan color
-$color-cyan: #0079C0;
-$color-cyan-75: #409BD6;
-$color-cyan-50:#7FBCE3;
-$color-cyan-25:#BFDDF1;
-$color-cyan-10:#E6F2FA;
-$color-cyan-05:#F2F8FC;
-
-$color-cyan-active: #0652AE;
-$color-cyan-selected-area: #ECF6FF;
-$color-cyan-table: #F5FAFF;
-$color-cyan-hover: #BFDDF1;
-
-// navy color
-$color-navy: #00335B;
-$color-navy-75: #406684;
-$color-navy-50: #7F99AD;
-$color-navy-25: #BFCCD6;
-$color-navy-active: #002949;
-
 // Grey scale
 $color-grey-black: #212121;
 $color-grey: #6C6E71;
@@ -47,56 +20,6 @@ $color-grey-50: #B5B6B8;
 $color-grey-25: #DADBDB;
 $color-grey-active: #4B4D4F;
 $color-grey-border: #D9D9D9;
-
-// Warm grey
-$color-warm-grey: #F1EFEB;
-$color-warm-grey-active: #A8A7A4;
-
-
-// Grey light
-
-$color-grey-light-0: #F2F2F2;
-$color-grey-light-1: #E6E6E6;
-$color-grey-light-2: #F0F0F0;
-$color-grey-light-3: #F5F5F5;
-
-// Other colors
-
-$color-orange: #EC7000;
-$color-lime: #678004;
-$color-green: #007a3d;
-$color-green-dark: #18542c;
-$color-teal: #008385;
-$color-blurple: #0D1AC3;
-$color-burgundy: #942151;
-$color-fucshia: #c6007e;
-$color-violet: #a4219b;
-$color-purple: #6a2ca1;
-$color-red: #D81E05;
-$color-yellow: #FFC300;
-$color-gold: #AE9962;
-
-
-// interaction
-$color-bg-ok: #EFFFDA;
-$color-text-ok: #439135;
-$color-bg-info: #DBF1FA;
-$color-text-info: #0079C8;
-$color-bg-alert: #FDF6DD;
-$color-text-alert: #635A15;
-$color-bg-error: #FCF1F0;
-$color-text-error: #D81E05;
-
-// state
-$color-online: #7ED321;
-$color-busy: #FE5000;
-$color-offline: #9B9B9B;
-$color-bg-disabled: #F2F5F7;
-$color-text-disabled: #7F99AD;
-$color-border-disabled: #BFCCD6;
-$color-hover: #BFDDF1;
-$color-active: #00548C;
-
 
 // RRSS
 $color-facebook: #3B5998;
@@ -109,6 +32,6 @@ $color-google: #4D8CF5;
 //***********
 // Fonts
 //******
-$font-metropolis: 'Metropolis';
+$font-national2Condensed:'National 2 Condensed';
 $font-14:  0.875rem;
 $font-16:  1rem;

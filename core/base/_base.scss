@@ -1,130 +1,26 @@
 /* Tags Generals CSS */
-@use "../abstracts/index" as *;
+@use "../abstracts" as *;
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  -webkit-box-shadow: none !important;
-  -webkit-font-feature-settings: "smcp" 1;
-  -moz-font-feature-settings: "smcp" 1;
-  -ms-font-feature-settings: "smcp" 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  box-shadow: none !important;
+
+html {
+  height: 100%;
+}
+
+
+body {
+  background-color: var(--altern-colors-blue-blue-grey);
+  display: block;
+  font-family: $font-national2Condensed;
+  font-size: $main-font-size;
   margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font-family: "national_2_condensedregular";
-  font-synthesis: none;
-  font-feature-settings: "smcp" 1;
-  vertical-align: baseline;
+  padding: var(--sizing-sm);
+  height: 100%;
+  font-weight: normal;
   line-height: normal;
+  position: relative;
+  width: 100%;
 }
 
-::-webkit-input-placeholder {
-  color: var(--altern-colors-blue-blue-grey) !important;
-}
-
-::-moz-placeholder {
-  color: var(--altern-colors-blue-blue-grey) !important;
-}
-
-:-ms-input-placeholder {
-  color: var(--altern-colors-blue-blue-grey) !important;
-}
-
-:-moz-placeholder {
-  color: var(--altern-colors-blue-blue-grey) !important;
-}
-
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  font: inherit;
-}
-
-*:lang(es) {
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  line-height: normal;
-}
 
 *:focus {
   outline: 2px solid var(--transparent-colors-rojo-50t);
@@ -154,158 +50,7 @@ html,
   transition: all 0.05s ease-in-out;
 }
 
-html {
-  height: 100%;
-}
 
-span.material-symbols-outlined {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: var(--main-colors-rojo);
-  text-decoration: underline;
-
-  &:hover {
-    color: var(--reds-rojo-7);
-    text-decoration: underline;
-  }
-}
-
-a:hover {
-  color: var(--main-colors-rojo);
-  text-decoration: underline;
-}
-
-a:not([href]):not([class]),
-a:not([href]):not([class]):hover {
-  color: inherit;
-  text-decoration: none;
-}
-
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 20;
-}
-
-span.material-symbols-outlined {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: var(--altern-colors-blue-blue-grey);
-  display: grid;
-  font-family: "national_2_condensedregular";
-  grid-template-columns: 1fr;
-  font-size: 16px;
-  margin: 0;
-  padding: var(--sizing-sm);
-  height: 100%;
-  font-weight: normal;
-  line-height: normal;
-  position: relative;
-  width: 100%;
-}
-
-input[type="checkbox"],
-input[type="color"],
-input[type="date"],
-input[type="datetime-local"],
-input[type="email"],
-input[type="file"],
-input[type="hidden"],
-input[type="image"],
-input[type="month"],
-input[type="number"],
-input[type="password"],
-input[type="radio"],
-input[type="range"],
-input[type="reset"],
-input[type="search"],
-input[type="submit"],
-input[type="tel"],
-input[type="text"],
-input[type="time"],
-input[type="url"],
-input[type="week"] {
-  -webkit-border-radius: 0.65em;
-  -moz-border-radius: 0.65em;
-  background-color: var(--main-colors-white);
-  border: 1px solid var(--gray-scale-gray-4);
-  border-radius: 0.65em;
-  line-height: normal;
-  margin: 0 0 0 0;
-  padding: var(--sizing-xs);
-}
-ul {
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-
-  li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-  }
-}
-
-ol,
-ul {
-  padding-left: 1.75rem;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  color: var(--gray-scale-dark);
-  line-height: normal;
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  font-size: 2.5em;
-}
-
-h2 {
-  font-size: 2.25em;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-}
-
-h3 {
-  font-size: 2em;
-}
-
-h4 {
-  font-size: 1.75em;
-}
-
-h5 {
-  font-size: 1.5em;
-}
-
-h6 {
-  font-size: 1.2em;
-}
-
-p {
-  font-size: 14px;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  padding: 0;
-}
-
-small {
-  font-size: 0.75em;
-}
 
 /* Works on Chrome, Edge, and Safari. Scroll Style*/
 *::-webkit-scrollbar {

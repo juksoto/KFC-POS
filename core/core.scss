@@ -5,17 +5,17 @@
 // **************  Core
 // [description] Contiene todos los archivos necesarios para la personalizacion
 // *****
-@use "base";
-@use "utils";
-@use "abstracts";
+@use "normalize" as *;
+
+@use "base" as *;
+@use "utils" as *;
+@use "abstracts" as *;
 
 // **************  Components
-//[description] Contiene todos los estilos para los difernentes componentes
+//[description] Contiene todos los estilos para los diferentes componentes
 //*****
-@use "components";
-
-/**/
+@use "components" as *;
 
 // ************** Pages
-// [description] Contiene todos los estilos para los pages
+// [description] Contiene todos los estilos para las páginas
 //*****
